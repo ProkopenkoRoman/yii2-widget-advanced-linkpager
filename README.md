@@ -40,3 +40,7 @@ public function search($params)
   ...
 }
 ```
+
+Author
+-----
+[long399](https://github.com/ProkopenkoRoman/), e-mail: [long399@mail.ru](mailto:long399@mail.ru)
