@@ -12,11 +12,12 @@ Either run
 
 or add
 
-```
+```json
 "long399/yii2-widget-advanced-linkpager": "dev-main"
 ```
 
 to the require section of your `composer.json` file.
+
 
 Usage
 -----
@@ -57,6 +58,7 @@ public function search($params)
   ...
 }
 ```
+
 
 Author
 -----
