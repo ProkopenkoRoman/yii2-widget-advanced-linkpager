@@ -5,6 +5,8 @@
 
 AdvancedLinkPager widget for Yii Framework 2.0
 
+![Screenshot](https://www.cyberforum.ru/blog_attachment.php?attachmentid=7079&d=1628496193 "Screenshot")
+
 ## Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 Either run
