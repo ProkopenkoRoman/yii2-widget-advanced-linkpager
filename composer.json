@@ -1,0 +1,24 @@
+{
+	"name": "long399/yii2-widget-advanced-linkpager",
+	"description": "yii2 advanced LinkPager Widget",
+	"homepage": "https://github.com/ProkopenkoRoman/yii2-widget-advanced-linkpager",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension","yii2-widget-advanced-linkpager","yii2-widget-linkpager","linkpager","widget"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "long399",
+			"email": "long399@mail.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-bootstrap": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"long399\\pager\\": ""
+		}
+	}
+}
