@@ -1,8 +1,11 @@
 # yii2-widget-advanced-linkpager
+
+[![Total Downloads](http://poser.pugx.org/long399/yii2-widget-advanced-linkpager/downloads)](https://packagist.org/packages/long399/yii2-widget-advanced-linkpager)
+[![License](http://poser.pugx.org/long399/yii2-widget-advanced-linkpager/license)](https://packagist.org/packages/long399/yii2-widget-advanced-linkpager)
+
 AdvancedLinkPager widget for Yii Framework 2.0
 
-Installation
-------------
+## Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 Either run
 
@@ -19,8 +22,7 @@ or add
 to the require section of your `composer.json` file.
 
 
-Usage
------
+## Usage
 view:
 ```php
 echo GridView::widget([
@@ -60,6 +62,5 @@ public function search($params)
 ```
 
 
-Author
------
+## Author
 [long399](https://github.com/ProkopenkoRoman/), e-mail: [long399@mail.ru](mailto:long399@mail.ru)
