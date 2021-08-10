@@ -1,6 +1,23 @@
 # yii2-widget-advanced-linkpager
 AdvancedLinkPager widget for Yii Framework 2.0
 
+Installation
+------------
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+Either run
+
+```
+ composer require --prefer-dist long399/yii2-widget-advanced-linkpager
+```
+
+or add
+
+```
+"long399/yii2-widget-advanced-linkpager": "dev-main"
+```
+
+to the require section of your `composer.json` file.
+
 Usage
 -----
 view:
