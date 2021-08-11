@@ -76,6 +76,11 @@ class AdvancedLinkPager extends LinkPager
      */
     protected function renderPageList()
     {
+        $pageCount = $this->pagination->getPageCount();
+        if ($pageCount < 2 && $this->hideOnSinglePage) {
+            return '';
+        }
+
         $html = Html::beginTag('div', ['class' => 'btn-group dropup', 'style' => 'margin-left: 20px; margin-top: -5px;']);
         $html .= Html::button(
             $this->pageListLabel.' '.Html::tag('span', '', ['class' => 'fa fa-caret-down']),
@@ -120,6 +125,11 @@ class AdvancedLinkPager extends LinkPager
      */
     protected function renderPageJump()
     {
+        $pageCount = $this->pagination->getPageCount();
+        if ($pageCount < 2 && $this->hideOnSinglePage) {
+            return '';
+        }
+
         $html = Html::beginTag('div', ['class' => 'btn-group', 'style' => 'margin-left: 20px; margin-top: -5px;']);
         $html .= Html::textInput(
             'page',
@@ -276,7 +286,7 @@ class AdvancedLinkPager extends LinkPager
             if (evt.which == 13) {
                 var url = "$url";
                 var targetPage =  $(this).val();
-                var newUrl = url.replace(/(page=)\d{1,}/, "$1"+targetPage);
+                var newUrl = url.replace(/([?&]page=)\d{1,}/, "$1"+targetPage);
                 window.location.href = newUrl;
             }
         });
