@@ -18,7 +18,7 @@ Either run
 or add
 
 ```json
-"long399/yii2-widget-advanced-linkpager": "dev-main"
+"long399/yii2-widget-advanced-linkpager": "~0.1"
 ```
 
 to the require section of your `composer.json` file.
